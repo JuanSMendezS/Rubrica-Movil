@@ -1,7 +1,7 @@
 import 'package:sqlite_crud/widgets/producto.dart';
 import 'package:flutter/material.dart';
 import 'package:sqlite_crud/widgets/Ruta.dart';
-import 'package:sqlite_crud/widgets/Editar.dart';
+import 'package:sqlite_crud/widgets/editar.dart';
 import 'package:http/http.dart' as http;
 
 class Detalle extends StatefulWidget {
