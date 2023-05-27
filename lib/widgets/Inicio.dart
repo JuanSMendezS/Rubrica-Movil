@@ -23,7 +23,8 @@ class _InicioState extends State<Inicio> {
   }
 
   Future<List<Producto>> getProductos() async {
-    final respuesta = await http.get(Uri.parse(Ruta.dirServerListar));
+    final url = Uri.parse(Ruta.dirServerListar);
+    final respuesta = await http.get(url);
     final items = json.decode(respuesta.body).cast<Map<String, dynamic>>();
     return items.map<Producto>((json) {
       return Producto.fromJson(json);

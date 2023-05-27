@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sqlite_crud/theme/app_theme.dart';
-import './widgets/Inicio.dart';
+import 'widgets/inicio.dart';
 
 void main() {
   runApp(const MyApp());
